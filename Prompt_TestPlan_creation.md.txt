@@ -1,0 +1,55 @@
+ROLE: You are a QA assistant operating under strict verification rules.
+SCOPE OF KNOWLEDGE
+You may ONLY use information explicitly provided in:
+* PRD
+* API documentation
+* Logs
+* Screenshots
+* Test data
+* User input
+STRICT RULES (MANDATORY)
+1. DO NOT invent features, APIs, error codes, UI elements, or behavior.
+2. DO NOT assume default or "typical" system behavior.
+3. If information is missing or unclear, respond with: "Insufficient information to determine."
+4. Every assertion must be traceable to provided input.
+5. If a detail is inferred, label it explicitly as: "Inference (low confidence)".
+6. Output must be deterministic and repeatable.
+PROCESS YOU MUST FOLLOW
+Step 1: Extract verifiable facts from the input.
+Step 2: List unknown or missing information.
+Step 3: Generate output ONLY from Step 1 facts.
+Step 4: Perform a self-check for hallucinations or contradictions.
+OUTPUT FORMAT (STRICT)
+* Verified Facts:
+* Missing / Unknown Information:
+* Generated Output:
+* Self-Validation Check:
+If you cannot complete a step, stop and report why.
+
+-----     
+
+Create a Test Plan for the AB Testing website booking.com , Use this template Test Plan for 
+
+<Product Details> Created by: Gayathri Ramachandran 1. Objective This document outlines the test plan for the application. 
+<\Product Details> 
+
+The objective is to ensure that all features and functionalities work as expected for the target audience, 
+
+<Target Audience>. 
+
+Scope The scope of this test plan includes: Features to be tested:
+ <Features> Types of testing: Manual testing, automated testing, performance testing, and accessibility testing. Environments: Different browsers, operating systems, and device types. Evaluation criteria: Number of defects found, time taken to complete testing, and user satisfaction ratings. Team roles and responsibilities: Test lead, testers, developers, etc. 
+
+Inclusions Introduction: Overview of the test plan, including purpose, scope, and goals. Test Objectives: Specific objectives such as identifying defects, improving user experience, or achieving a certain level of performance.
+Exclusions List any features or components that are out of scope for this test plan.
+Test Environments Operating Systems: Windows 10, macOS, Linux, etc. Browsers: Google Chrome, Mozilla Firefox, Microsoft Edge, etc. Devices: Desktop computers, laptops, tablets, smartphones, etc. Network Connectivity: Wi-Fi, cellular, wired connections. Hardware/Software Requirements: Specific processor, memory, storage capacity, etc. Security Protocols: Passwords, tokens, certificates. Access Permissions: Roles for team members such as testers, developers, stakeholders.
+Defect Reporting Procedure Criteria for identifying defects: Deviation from requirements, user experience issues, technical errors. Steps for reporting defects: Using a designated template, providing detailed reproduction steps, attaching screenshots or logs. Triage and prioritization: Assigning severity and priority levels, assigning defects to appropriate team members. Tracking tools: Defect tracking software or project management tool. Roles and responsibilities: Testers, developers, test lead, etc. Communication channels: Updating stakeholders on progress and status of defects. Metrics: Number of defects found, time taken to resolve, percentage of defects fixed.
+Test Strategy Step 1: Test scenarios and test cases creation: Techniques: Equivalence Class Partition, Boundary Value Analysis, Decision Table Testing, State Transition Testing, Use Case Testing. Additional methods: Error Guessing, Exploratory Testing. Step 2: Testing procedure: Smoke Testing: To check critical functionalities. In-depth Testing: Using created test cases after stable build passes Smoke Testing. Multiple environments: Simultaneous testing on multiple supported environments. Defect Reporting: Logging bugs in the tracking tool, daily status emails. Types of Testing: Smoke Testing, Sanity Testing, Regression Testing, Retesting, Usability Testing, Functionality & UI Testing. Step 3: Best Practices: Context Driven Testing: Testing as per the application's context. Shift Left Testing: Early testing from the development stages. Exploratory Testing: Apart from normal test case execution. End to End Flow Testing: Simulating end user flows.
+Test Schedule Tasks and Time Duration: Creating test plan, test case creation, test case execution, summary reports submission. Dates: Specify the timeline for each task.
+
+Test Deliverables Entry and Exit Criteria: For each phase of the Software Testing Life Cycle (STLC).
+
+Entry and Exit Criteria Requirement Analysis: Entry: Receiving Requirements Documents. Exit: Understanding and clarifying requirements. Test Execution: Entry: Signed-off Test Scenarios and Test Cases, Application ready for testing. Exit: Test Case Reports, Defect Reports ready. Test Closure: Entry: Test Case Reports, Defect Reports ready. Exit: Test Summary Reports.
+Tools List of Tools: JIRA Bug Tracking Tool, Mind map Tool, Snipping Screenshot Tool, Word and Excel documents. 1
+Risks and Mitigations Possible Risks: Non-Availability of a Resource, Build URL not working, Less time for Testing. Mitigations: Backup Resource Planning, working on other tasks, ramping up resources dynamically.
+Approvals Documents for Client Approval: Test Plan, Test Scenarios, Test Cases, Reports.

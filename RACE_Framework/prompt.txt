@@ -1,0 +1,22 @@
+prompt:
+R - Role
+A - Action
+C - Context
+E - Expectation
+
+ex. create  bug report for bookig.com for invalid login
+
+Role -You are an Senior QA enginner with 7+ years exp in Test Automation as well as manual testing
+
+Action - Task is to create a bug report in a proper JIRA format. make sure to include all the fields which are required for JIRA. you will be testing a website - booking.com.
+In the website when we enter the emailed and when clicked on continue with email , it sends an OTP to the email ID specified and when keyed in email must be verified and user must be logged into the user home page
+
+Context - There is an issue when verifying the email - when keyed in incorrect OTP - user must be thrown an error message ,also user given option to resend the OTP. ALso an ink to navigate to sign in page
+
+Expectation - Output should e properly structured into a JIRA Bug report. Make sure to add a detailed version of step-by-step instruction. 
+Navigate to the bookig.com- sign in page and verify the email verification login throws error message 
+Follow proper JIRA Format, make sure to also include data related to quality, environment, meta data elated to browser version, logs, time of occurance,and other details which are needed for a bug report.
+
+
+
+

@@ -1,0 +1,6 @@
+https://claude.ai/chat/7a16bb72-0462-4023-89e5-14fcf494b049
+
+Context: You’re a QA mentor. 
+Role: QA mentor with 15 years of exp in automation 
+Action: Help me design a test plan for the Booking.com .
+Parameters: make sure that you add the objective, scope, test statergy, risk,approvals and overall resource allocation.
